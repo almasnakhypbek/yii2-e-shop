@@ -1,0 +1,147 @@
+@media screen and (min-width: 320px) and (max-width: 586px) {
+  .logo p,span{
+    color: #ccc;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    text-align: center;
+  }
+  .logoimg{
+    display: flex;
+    justify-content: center;
+  }
+  .search_box{
+    display: inline;
+  }
+  .right-nav{
+    position: relative;
+    top:40px;
+    left: -5px;
+  }
+  .shop-menu .fa{
+    position: relative;
+    left: -70px;
+    bottom: 30px;
+  }
+  .product-img{
+    position: relative;
+    left: -10px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  .logo p,span{
+    color: #ccc;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    text-align: center;
+  }
+  .logoimg{
+    display: flex;
+    justify-content: center;
+  }
+  .search_box{
+    display: inline;
+  }
+  .right-nav{
+    position: relative;
+    left:-10%;
+  }
+  .shop-menu .fa{
+    position: relative;
+    left: -70px;
+    bottom: 30px;
+  }
+  .product-img{
+    position: relative;
+    left: -10px;
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 732px) {
+  .logo p,span{
+    color: #ccc;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    text-align: center;
+  }
+  .logoimg{
+    display: flex;
+    justify-content: center;
+  }
+  .search_box{
+    display: inline;
+  }
+  .right-nav{
+    position: relative;
+    left:-15%;
+  }
+  .shop-menu .fa{
+    position: relative;
+    left: -70px;
+    bottom: 30px;
+  }
+}
+
+@media screen and (width: 360px) and (height:640px){
+  .logo p,span{
+    color: #ccc;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    text-align: center;
+  }
+  .logoimg{
+    display: flex;
+    justify-content: center;
+  }
+  .search_box{
+    display: inline;
+  }
+  .right-nav{
+    position: relative;
+    left:-8%;
+  }
+  .shop-menu .fa{
+    position: relative;
+    left: -70px;
+    bottom: 30px;
+  }
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:35%;
+		margin:1.5em 0;
+	}
+
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block;min-width:280px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff;  }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+
+
+
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+
+}
